@@ -11,7 +11,7 @@ function App() {
   const [searchCity, setSearchCity] = useState("");
   const [weatherInfo, setWeatherInfo] = useState("");
   const [loading, setLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     const fetchWeatherData = async () => {
